@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* { 
+	outline: none!important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+	padding: 0!important;
+}
+
+a:active, 
+a:checked,
+a:focus, 
+a:hover { 
+	outline: none!important; 
+	text-decoration: none;
+}
+
+body { 
+	font-family: 'Work Sans', sans-serif;
+	margin:0; 
+	padding:0;
+}
+
+.clear { 
+	clear:both;
+}
+
+.none {
+	display: none!important;
+}
+
+img { 
+	max-width:100%!important; 
+	height:auto; 
+}
+
+.boxInterno {
+    width:100%;
+    float:left
+}
+
+/* Alinhamentos de Conteúdo */
+.aligncenter,
+.alignleft,
+.alignright {
+    display: block;
+    padding: 0;
+}
+
+.aligncenter {
+    float: none;
+    margin: .5em auto 1em;
+}
+
+.alignright {
+    float: right;
+    margin: .5em 0 1em 1em;
+}
+
+.alignleft {
+    float: left;
+    margin: .5em 1em 1em 0;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption-text {
+	text-align: center;
+    font-size: 12px;
+	margin: 10px 0 0 0;
+}
+
+/* FONTES */
+
+a { 
+	text-decoration:none!important; 
+}
+
+a:hover { 
+	text-decoration:none; 
+}
+
+p, span, li {
+	color: #828282;
+	font-size: 14px;
+	line-height: 180%;
+}
+
+strong {
+	color: #828282;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+/********* Conteúdo *********/
+
+#paginaInicial {
+	float: left;
+	width: 100%;
+    margin-top: 110px;
+}
+
+.tituloPrincipal {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 20px;
+}
+
+.tituloPrincipal.center {
+    text-align: center;
+    margin-bottom: 45px;;
+}
+
+.tituloPrincipal .boxInterno.center {
+    text-align: center;
+}
+
+.tituloPrincipal .titulo {
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 50px;
+    line-height: 150%;
+    color: #FFF;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Elemento Superior */
+
+.superiorBox {
+    margin: 0 0 13px 0;
+}
+
+.superiorBox span {
+    color: #BEBEBE;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/*********************************************
+** Hover Zoom
+*********************************************/
+
+.hoverZoom {
+	transition: all 0.2s linear;
+}
+
+.hoverZoom:hover {
+	transform: scale(1.03);
+}
+
+/********* Borda *********/
+
+.conteudo_borda {
+    background: #6c7b9a;
+    width: 100%;
+    float: left;
+    padding: 30px 0 40px 0;
+}
+
+.conteudo_borda .borda {
+    background: #fff;
+    border-radius: 60px;
+    width: 100%;
+    height: 1px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+    /* Tipografia */
+
+    h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    /* Elemento Superior */
+    .superiorBox {
+        margin: 0 0 10px 0;
+    }
+
+}

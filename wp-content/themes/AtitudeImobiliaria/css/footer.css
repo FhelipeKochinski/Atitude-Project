@@ -1,0 +1,113 @@
+/*********************************************
+** Footer 
+*********************************************/
+
+/* Geral */
+#footer {
+	float: left;
+	width: 100%;
+	padding: 40px 0;
+	background: #6c7b9a;
+}
+
+/* Logo */
+#footer .logo {
+	margin-bottom: 20px;
+    padding: 0;
+}
+
+/* Texto/Elemento */
+#footer .superiorBox {
+	margin: 0 0 15px 0;
+}
+
+#footer .superiorBox span {
+	color: #BEBEBE;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#footer .textoBox p {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+    font-weight: 400;
+}
+
+/* Redes Sociais */
+#footer .redesSociais {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+#footer .redesSociais a i {
+	color: #fff;
+	font-size: 30px;
+	transition: all 0.1s linear 0s;
+	padding-left: 15px;
+}
+
+#footer .redesSociais a .facebook {
+	padding: 0;
+}
+
+#footer .redesSociais a i:hover {
+	transform: scale(1.1);
+}
+
+#footer .redesSociais #logoFooter {
+	float: left;
+	margin-top: 25px;
+}
+
+/* Dados Footer div */
+#footer .dadosFooter {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+
+	/* Geral */
+	#footer {
+		padding: 30px 0!important;
+	}
+
+	/* Menus */
+	#footer .menu,
+	#footer .contatos {
+		float: left;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#footer .redesSociais {
+		float: left;
+		width: 100%;
+	}
+
+	#footer .textoBox p {
+		font-size: 20px;
+    	line-height: 30px;
+	}
+
+	#footer .redesSociais a .fa-facebook-square {
+		padding: 0;
+	}
+	
+	/* Logo */
+	#footer #logoFooter {
+		position: static;
+		display: flex;
+		justify-content: center;
+		padding-bottom: 25px;
+		margin-bottom: 25px;
+	}
+
+	/* Dados */
+	#footer .dadosFooter{
+		display: inline-block;
+	} 
+}
